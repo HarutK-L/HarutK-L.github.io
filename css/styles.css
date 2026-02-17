@@ -1,0 +1,196 @@
+html, body {
+	background: #020167; 
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(163, 0, 0);
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: rgb(255, 255, 255);
+	line-height: 1.8;
+}
+h1 {
+	font: 4.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(0, 0, 0);
+}
+h2 {
+	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+h3 {
+	font-size: 1.2em;
+}
+h4{
+	font-size: 1.2em;
+	border-bottom: 1px solid rgb(11, 11, 11);
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: rgb(184, 126, 84);
+}
+a:hover {
+	color: rgb(120, 97, 55);
+}
+pre {
+	font-size: 1.4em;
+	color: white;
+	padding: .5em 1em;
+	border-left: 1em solid #A68048;
+	background: #666;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 80%;
+}
+pre.wrong {
+	border-left-color: red;
+}
+pre.correct {
+	border-left-color: green;
+}
+dt {
+	font-style: italic;
+	font-size:1.2em;
+}
+dd {
+	margin-bottom: 1.4em;
+}
+table {
+	margin-top: 1em;
+}
+caption {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	text-align: left;
+}
+td, th {
+	padding: 10px;
+}
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid rgb(11, 11, 11);
+}
+aside {
+	padding: 1em;
+	background:rgb(83, 104, 138);
+	color: white;
+	margin-bottom: 1em;
+}
+aside h4 {
+	color: white;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+div:has(> blockquote) {
+  background-color: #ededed;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 5px;
+  float: right;
+  width: 300px;
+  
+}
+blockquote {
+	font-style: italic;
+}
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+blockquote + p {
+  text-align: right;
+}
+.flowRight {
+	float: right;
+	margin-left: 10px;
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
+.flowCenter{
+	float: center;
+	
+}
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  width: 21%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #d32105;
+}
+
+figcaption {
+  background-color: #222222;
+  color: white;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+figure {
+  border: thin rgb(104, 97, 97) solid;
+  display: flex;
+  float: right;
+  flex-flow: column;
+  padding: 2px;
+  max-width: 330px;
+  width: 50%;
+  margin: auto;
+  
+}
+
+meter {
+  width: 300px;
+  height: 30px;
+  
+}
